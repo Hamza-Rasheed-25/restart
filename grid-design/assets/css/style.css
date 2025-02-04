@@ -1,0 +1,176 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the height and width to 100% */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Inter", Sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: #1A1A1A;
+    align-content: center;
+}
+
+.parent {
+    height: 1080px;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 13.57px;
+    grid-row-gap: 13.57px;
+}
+.grid {
+    background-color: #2D2D2D;
+    border-radius: 40px;
+    border: 1px solid #2D2D2D;
+    position: relative;
+}
+.grid span{
+    color: #FBF8F6;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+.bottom{
+    bottom: 10px;
+}
+.top{
+    top: 10px;
+}
+#grid1 {
+    grid-area: 1 / 1 / 4 / 4;
+    background: url(../img/grid1.jpg);
+    background-size: cover;
+}
+
+#grid2 {
+    grid-area: 1 / 4 / 2 / 6;
+    background: url(../img/grid2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid3 {
+    grid-area: 2 / 4 / 4 / 6;
+    background: url(../img/grid3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid4 {
+    grid-area: 4 / 1 / 6 / 6;
+    background: url(../img/grid4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid5 {
+    grid-area: 6 / 1 / 7 / 6;
+    background: url(../img/grid5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid6 {
+    grid-area: 7 / 1 / 9 / 3;
+    background: url(../img/grid6.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid7 {
+    grid-area: 7 / 3 / 9 / 6;
+    background: url(../img/grid7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid8 {
+    grid-area: 1 / 6 / 3 / 9;
+    background: url(../img/grid8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid9 {
+    grid-area: 1 / 9 / 3 / 13;
+    background: url(../img/grid9.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid10 {
+    grid-area: 1 / 13 / 3 / 16;
+    background: url(../img/grid10.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid11 {
+    grid-area: 3 / 6 / 7 / 16;
+    background: url(../img/grid11.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid12 {
+    grid-area: 7 / 6 / 9 / 10;
+    background: url(../img/grid12.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid13 {
+    grid-area: 7 / 10 / 9 / 12;
+    background: url(../img/grid13.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid14 {
+    grid-area: 7 / 12 / 9 / 16;
+    background: url(../img/grid14.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid15 {
+    grid-area: 1 / 16 / 3 / 21;
+    background: url(../img/grid15.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid16 {
+    grid-area: 3 / 16 / 4 / 21;
+    background: url(../img/grid16.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid17 {
+    grid-area: 4 / 16 / 6 / 21;
+    background: url(../img/grid17.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grid18 {
+    grid-area: 6 / 16 / 9 / 21;
+    background: url(../img/grid18.png);
+    background-size: cover;
+    background-position: center;
+}
